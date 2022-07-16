@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <style>
+        img {
+            position: ansolute;
+            height: 75px;
+            width: 75px;
+        }
+
+        #smiley {
+            position: absolute;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="heading>">Smiley Game </div>
+    <div class="main_game">
+        <div id="smiley" onclick="smile_em()">
+            <img src="smiley-clipart-md.png">
+        </div>
+
+    </div>
+    <div id="score_board"> Score : <span id="score_val">0</span></div>
+    <script type="text/javascript">
+        w = document.documentElement.clientWidth;
+        h = document.documentElement.clientHeight;
+        final_score = 0;
+        let clicks = document.querySelector("#smiley");
+        const y = document.getElementById("score_val");
+        y.innerHTML = final_score;
+        function smile_em() {
+            rw = Math.floor(Math.random() * w);
+            rh = Math.floor(Math.random() * h);
+            x = document.getElementById("smiley");
+            x.style.right = rw - 50;
+            x.style.top = rh - 100;
+
+            clicks.addEventListener("click", function () { final_score += 10; });
+
+
+
+            r = setTimeout(smile_em, 3000);
+        }
+        setTimeout(stopi, 10000);
+        function stopi() {
+            clearTimeout(r);
+        }
+    </script>
+
+
+</body>
+
+</html>
