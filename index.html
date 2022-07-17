@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title> Smiley Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="heading">Smiley Game </div>
+
+    <div class="main_game">
+        <div class="smiley" onclick="afterclick(0)">
+            <img src="smiley_emoji.png">
+        </div>
+        <div class="smiley" onclick="afterclick(1)">
+            <img src="smiley_emoji.png">
+        </div>
+        <div class="smiley" onclick="afterclick(2)">
+            <img src="smiley_emoji.png">
+        </div>
+        <div class="smiley" onclick="afterclick(3)">
+            <img src="smiley_emoji.png">
+        </div>
+        <div class="sad" onclick="afterclick2(0)">
+            <img src="crying_emoji.png">
+        </div>
+        <div class="sad" onclick="afterclick3(1)">
+            <img src="straight face.png" height="20%" width="15%">
+        </div>
+    </div>
+
+    <div id="score_board"> Score : <span id="score_val">0</span></div>
+
+    <div class="popup">
+        <img src="win.jpg" width="100%" alt="success">
+    </div>
+
+    <script type="text/javascript" src="index.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+body {
+  border: solid 2px black;
+  margin: 0px;
+}
+
+img {
+  height: 100%;
+  min-width: 100%;
+}
+
+div.smiley {
+  position: absolute;
+  height: 15%;
+  width: 12%;
+}
+
+div.sad {
+  position: absolute;
+  height: 18%;
+  width: 14%;
+}
+
+#heading {
+  background-color: #6e85b7;
+  height: 8%;
+  color: aliceblue;
+  font-size: 2em;
+  text-align: center;
+}
+
+#score_board {
+  position: absolute;
+  bottom: 0px;
+  width: 98%;
+  height: 5%;
+  background-color: #b2c8df;
+  padding-top: 4px;
+  margin-bottom: 1%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.popup {
+  position: sticky;
+  top: 20%;
+  left: 20%;
+  height: 400px;
+  width: 800px;
+  border: solid 2px grey;
+}
