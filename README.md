@@ -2,23 +2,32 @@
 Task 2 for summer training of Full stack dev with devOps.
 
 
-The aim for this task was to createa basic and simple game using all the previously taught HTML ,CSS and Javascipt concepts.
+The aim for this task was to create a basic and simple game using all the previously taught HTML ,CSS and Javascipt concepts.
 
-here in this index.html file the complete cose is written.
+Here in this index.html file the complete cose is written.
 
-The game is simple as we click on the smiling emoji our score incrase and also there is a time limit of 60 seconds.
+The game is simple as we click on the smiling emoji our score increases else if we click the crying emoji score decreases and if we click the straight face emoji it doesn't affect the score.
+
 
 Enjoy!!!
 
 
 code preview: 
-![image](https://user-images.githubusercontent.com/77195565/179366127-d2461ec6-700f-4e3a-99ad-ec04c456d6be.png)
 
-![image](https://user-images.githubusercontent.com/77195565/179366144-ea30bf18-e22d-4d81-8d65-3fb4c0712d3b.png)
+index.html
+![image](https://user-images.githubusercontent.com/77195565/179419563-414a0a63-4fbe-4d02-b5c9-390d2ddce1b3.png)
 
-![image](https://user-images.githubusercontent.com/77195565/179366154-b2727357-e87a-41d8-9970-0f2d6c422653.png)
+style.css
+![image](https://user-images.githubusercontent.com/77195565/179419577-68838b27-36fd-4383-a39c-2cdfc5be93cf.png)
+
+index.js
+![image](https://user-images.githubusercontent.com/77195565/179419588-82a62ce1-4118-4f30-820a-e6e79f8071ba.png)
+
 
 
 Output Preview:
+  
+![image](https://user-images.githubusercontent.com/77195565/179419621-777c9f2e-9b82-4c44-accb-13ba0bd5aedb.png)
 
-![image](https://user-images.githubusercontent.com/77195565/179366194-0252533a-298b-4516-a216-6aec2cb018c4.png)
+![image](https://user-images.githubusercontent.com/77195565/179419631-0658caa0-0dee-4e4d-ae61-48ace42e54fe.png)
+
